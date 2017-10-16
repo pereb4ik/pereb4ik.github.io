@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic');
 body {
   background: url(newrepkah.svg) no-repeat center fixed;
   background-size: cover;
@@ -13,7 +13,7 @@ body {
 }
 .block3 {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     height: 10rem;
 }
