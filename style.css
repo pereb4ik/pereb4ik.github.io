@@ -10,15 +10,28 @@
       position:relative;
       text-align:center;
       white-space:nowrap
+      -moz-user-select: none;
+      -webkit-user-select: none;
     }
     .RoundButton{
       background-color:transparent;
       border:1px solid #fff;
       color:#fff
+      -moz-user-select: none;
+      -webkit-user-select: none;
     }
-    .RoundButton:hover{background-color: #fff; border-color: #fff; color: #00c853}
-    .RoundButton:focus:before{box-shadow:0 0 0 2px rgba(255,255,255,0.5)}
-    .RoundButton:active:before{box-shadow:0 0 0 2px rgba(255,255,255,0.8)}
+    .RoundButton:hover{background-color: #fff; border-color: #fff; color: #00c853
+      -moz-user-select: none;
+      -webkit-user-select: none;
+    }
+    .RoundButton:focus:before{box-shadow:0 0 0 2px rgba(255,255,255,0.5)
+      -moz-user-select: none;
+      -webkit-user-select: none;
+    }
+    .RoundButton:active:before{box-shadow:0 0 0 2px rgba(255,255,255,0.8)
+      -moz-user-select: none;
+      -webkit-user-select: none;
+    }
     .RoundButton:focus:before, .RoundButton:active:before{
       background-color:transparent;
       border-radius:inherit;
@@ -30,6 +43,8 @@
       right:-2px;
       top:-2px;
       transition:.2s
+      -moz-user-select: none;
+      -webkit-user-select: none;
     }
 
 body {
