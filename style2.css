@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic');
+body {
+  background: url(newrepkah.svg) no-repeat center fixed;
+  background-size: cover;
+  background-color: #80DEEA;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+.kek {
+    font-size: 5rem;
+    font-weight: 400;
+}
+.block3 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    height: 10rem;
+}
+.blue{
+    -webkit-border-radius:5px;
+    border:1px solid #000;
+    background:-webkit-gradient(linear,left top,left bottom,from(#e68e00),to(#eddb7c));
+    color:black;
+    font-size:13px;
+    /*font-weight:300;*/
+    /*text-shadow:0 1px 0 #80DEEA;*/
+    padding:7px 11px;
+}
+.blue:hover{
+    color:#ccc;
+    background:-webkit-gradient(linear,left top,left bottom,from(#e68e00),to(#d6bc35));
+    cursor:pointer;
+}
+
+.blue:active{
+    color:#fff;
+    background:#000;background:-webkit-gradient(linear,left top,left bottom,from(#bf4c03),to(#d38200));
+    box-shadow:0 1px 0 #444;
+}
+A:link {text-decoration: none; color: black;}
+A:visited {text-decoration: none; color: black; text-align: center;}
+A:active {text-decoration: none; color: black; text-align: center;}
+A:hover {text-decoration: none; color: black;}
