@@ -13,7 +13,39 @@ input {
   border: none;
   outline: none;
 }
-.RoundButton {
+button {
+  border-radius:100px;
+  font-size:14px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  padding:6px 16px;
+  cursor: pointer;
+  position:relative;
+  text-align:center;
+  border:1px solid #fff;
+  color:#fff;
+  user-select: none;
+  background-color: transparent;
+  outline: none;
+}
+button:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #00c853;
+  user-select: none;
+}
+button:active:before {
+  box-shadow:0 0 0 2px rgba(255,255,255,0.8);
+  border-radius:inherit;
+  content:"";
+  bottom:-2px;
+  left:-2px;
+  right:-2px;
+  top:-2px;
+  position:absolute;
+  user-select: none;
+}
+/*.RoundButton {
   border-radius:100px;
   font-size:14px;
   padding:6px 16px;
@@ -44,7 +76,7 @@ input {
   border-color: #fff;
   color: #00c853;
   user-select: none;
-}
+}*/
 /*.RoundButton:focus:before{
   border-radius:inherit;
   content:"";
