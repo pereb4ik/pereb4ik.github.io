@@ -22,25 +22,10 @@ input {
   text-align:center;
   border:1px solid #fff;
   color:#fff;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  user-select: none;
 }
 .RoundButton:active:before {
   box-shadow:0 0 0 2px rgba(255,255,255,0.8);
-  touch-action: manipulation;
-}
-.RoundButton:active {
-   color: #fff;
-   touch-action: manipulation;
-}
-.RoundButton:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #00c853;
-  touch-action: manipulation;
-}
-.RoundButton:focus:before, .RoundButton:active:before{
   border-radius:inherit;
   content:"";
   bottom:-2px;
@@ -48,8 +33,27 @@ input {
   right:-2px;
   top:-2px;
   position:absolute;
-  touch-action: manipulation;
+  user-select: none;
 }
+.RoundButton:active {
+   color: #fff;
+   user-select: none;
+}
+.RoundButton:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #00c853;
+  user-select: none;
+}
+/*.RoundButton:focus:before{
+  border-radius:inherit;
+  content:"";
+  bottom:-2px;
+  left:-2px;
+  right:-2px;
+  top:-2px;
+  position:absolute;
+}*/
 A:link {text-decoration: none; color: black;}
 A:visited {text-decoration: none; color: black; text-align: center;}
 A:active {text-decoration: none; color: black; text-align: center;}
