@@ -8,41 +8,24 @@ body {
   padding:6px 16px;
   cursor: pointer;
   position:relative;
-  text-align:center;
+  /*text-align:center;*/
   border:1px solid #fff;
   color:#fff;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+/*  -moz-user-select: none;
+  -webkit-user-select: none;*/
 }
-.BlueButton {
-  border-radius:100px;
-  font-size:14px;
-  padding:6px 16px;
-  cursor: pointer;
-  position:relative;
-  text-align:center;
-  border:1px solid #fff;
-  color:#fff;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-.BlueButton:active:before {
+/*.BlueButton:active:before {
   box-shadow:0 0 0 2px rgba(255,255,255,0.8);
-  touch-action: manipulation;
 }
 .BlueButton:active {
    color: #fff;
-   touch-action: manipulation;
 }
 .BlueButton:hover {
   background-color: #fff;
   border-color: #fff;
   color: #00c853;
-  touch-action: manipulation;
-}
-.BlueButton:focus:before, .BlueButton:active:before{
+}*/
+/*.BlueButton:focus:before, .BlueButton:active:before{
   border-radius:inherit;
   content:"";
   bottom:-2px;
@@ -50,5 +33,7 @@ body {
   right:-2px;
   top:-2px;
   position:absolute;
-  touch-action: manipulation;
+}*/
+.BlueButton:focus:before, .BlueButton:hover:before, .BlueButton:active:before {
+  background-color: #fff;
 }
