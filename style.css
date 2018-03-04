@@ -24,17 +24,21 @@ input {
   color:#fff;
   -moz-user-select: none;
   -webkit-user-select: none;
+  touch-action: manipulation;
 }
 .RoundButton:active:before {
   box-shadow:0 0 0 2px rgba(255,255,255,0.8);
+  touch-action: manipulation;
 }
 .RoundButton:active {
    color: #fff;
+   touch-action: manipulation;
 }
 .RoundButton:hover {
   background-color: #fff;
   border-color: #fff;
   color: #00c853;
+  touch-action: manipulation;
 }
 .RoundButton:focus:before, .RoundButton:active:before{
   border-radius:inherit;
@@ -44,6 +48,7 @@ input {
   right:-2px;
   top:-2px;
   position:absolute;
+  touch-action: manipulation;
 }
 A:link {text-decoration: none; color: black;}
 A:visited {text-decoration: none; color: black; text-align: center;}

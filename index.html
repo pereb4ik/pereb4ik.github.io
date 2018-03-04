@@ -12,6 +12,7 @@
         <center>
             <a href="//vk.com/repkach"><div style="font-size: 5rem; font-weight: 400;">RepkaCH</div></a>
             <div id = "polynom"></div>
+            Найдите корни<br>
             <input type="text" id = "firsta" placeholder = "Real part">
             <input type="text" id = "firstb" placeholder = "Imaginary part">
             <br>
@@ -73,7 +74,18 @@
                 }
             }
             gen();
-
+            if(b > 0 && c > 0){
+              polynom.innerHTML = a + "x<sup>2</sup> + " + b + "x + " + c + " = 0";
+            }
+            if(b > 0 && c < 0){
+              polynom.innerHTML = a + "x<sup>2</sup> + " + b + "x - " + -c + " = 0";
+            }
+            if(b < 0 && c > 0){
+              polynom.innerHTML = a + "x<sup>2</sup> - " + -b + "x + " + c + " = 0";
+            }
+            if(b < 0 && c < 0){
+              polynom.innerHTML = a + "x<sup>2</sup> - " + -b + "x - " + -c + " = 0";
+            }
             function check(){
                 form1 = firsta.value;
                 form3 = firstb.value;
@@ -106,18 +118,6 @@
                 } else {
                     alert("NETRUEREPKACH");
                 }
-            }
-            if(b > 0 && c > 0){
-              polynom.innerHTML = a + "x^2 + " + b + "x + " + c + " = 0<br>Найдите корни";
-            }
-            if(b > 0 && c < 0){
-              polynom.innerHTML = a + "x^2 + " + b + "x - " + -c + " = 0<br>Найдите корни";
-            }
-            if(b < 0 && c > 0){
-              polynom.innerHTML = a + "x^2 - " + -b + "x + " + c + " = 0<br>Найдите корни";
-            }
-            if(b < 0 && c < 0){
-              polynom.innerHTML = a + "x^2 - " + -b + "x - " + -c + " = 0<br>Найдите корни";
             }
         </script>
     </body>
