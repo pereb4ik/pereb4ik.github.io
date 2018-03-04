@@ -45,6 +45,29 @@ button:active:before {
   position:absolute;
   user-select: none;
 }
+button:active {
+   color: #fff;
+   user-select: none;
+}
+button:focus:before{
+  border-radius:inherit;
+  content:"";
+  bottom:-2px;
+  left:-2px;
+  right:-2px;
+  top:-2px;
+  position:absolute;
+}
+/*.RoundButton:focus:before{
+  border-radius:inherit;
+  content:"";
+  bottom:-2px;
+  left:-2px;
+  right:-2px;
+  top:-2px;
+  position:absolute;
+}
+
 /*.RoundButton {
   border-radius:100px;
   font-size:14px;
