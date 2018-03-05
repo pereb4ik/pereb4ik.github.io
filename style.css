@@ -5,6 +5,8 @@ body {
   text-align: center;
   font-family: 'Open Sans';
   font-weight: 600;
+  user-select: none;
+  -webkit-user-select: none;
 }
 input {
   padding: 0.2rem;
