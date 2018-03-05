@@ -27,12 +27,14 @@ button {
   user-select: none;
   background-color: transparent;
   outline: none;
+  -webkit-user-select: none;
 }
 button:hover {
   background-color: #fff;
   border-color: #fff;
   color: #00c853;
   user-select: none;
+  -webkit-user-select: none;
 }
 button:active:before {
   box-shadow:0 0 0 2px rgba(255,255,255,0.8);
@@ -44,10 +46,12 @@ button:active:before {
   top:-2px;
   position:absolute;
   user-select: none;
+  -webkit-user-select: none;
 }
 button:active {
    color: #fff;
    user-select: none;
+  -webkit-user-select: none;
 }
 button:focus:before{
   border-radius:inherit;
@@ -57,6 +61,7 @@ button:focus:before{
   right:-2px;
   top:-2px;
   position:absolute;
+  -webkit-user-select: none;
 }
 /*.RoundButton:focus:before{
   border-radius:inherit;
