@@ -1,12 +1,10 @@
 body {
   background: url(newrepkah.svg) no-repeat center fixed;
-  background-size: cover;
   background-color: #80DEEA;
+  background-size: cover;
   text-align: center;
   font-family: 'Open Sans';
   font-weight: 600;
-  user-select: none;
-  -webkit-user-select: none;
 }
 input {
   padding: 0.2rem;
@@ -16,106 +14,25 @@ input {
   outline: none;
 }
 button {
+  background-color: #fdd835;
+  font: bold 14px 'Open Sans';
+  border: solid #fdd835;
+  outline: none;
   border-radius:100px;
-  font-size:14px;
-  font-family: 'Open Sans';
-  font-weight: 600;
   padding:6px 16px;
   cursor: pointer;
-  position:relative;
-  text-align:center;
-  border:1px solid #fff;
-  color:#fff;
-  user-select: none;
-  background-color: transparent;
-  outline: none;
   -webkit-user-select: none;
+  user-select: none;
+  transition-duration: 0.3s;
 }
 button:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #00c853;
-  user-select: none;
-  -webkit-user-select: none;
-}
-button:active:before {
-  box-shadow:0 0 0 2px rgba(255,255,255,0.8);
-  border-radius:inherit;
-  content:"";
-  bottom:-2px;
-  left:-2px;
-  right:-2px;
-  top:-2px;
-  position:absolute;
-  user-select: none;
-  -webkit-user-select: none;
+  background-color: #FFEB3B;
+  border-color: #FFEB3B;
 }
 button:active {
-   color: #fff;
-   user-select: none;
-  -webkit-user-select: none;
+  background-color: #FBC02D;
+  border-color: #FBC02D;
 }
-button:focus:before{
-  border-radius:inherit;
-  content:"";
-  bottom:-2px;
-  left:-2px;
-  right:-2px;
-  top:-2px;
-  position:absolute;
-  -webkit-user-select: none;
-}
-/*.RoundButton:focus:before{
-  border-radius:inherit;
-  content:"";
-  bottom:-2px;
-  left:-2px;
-  right:-2px;
-  top:-2px;
-  position:absolute;
-}
-
-/*.RoundButton {
-  border-radius:100px;
-  font-size:14px;
-  padding:6px 16px;
-  cursor: pointer;
-  position:relative;
-  text-align:center;
-  border:1px solid #fff;
-  color:#fff;
-  user-select: none;
-}
-.RoundButton:active:before {
-  box-shadow:0 0 0 2px rgba(255,255,255,0.8);
-  border-radius:inherit;
-  content:"";
-  bottom:-2px;
-  left:-2px;
-  right:-2px;
-  top:-2px;
-  position:absolute;
-  user-select: none;
-}
-.RoundButton:active {
-   color: #fff;
-   user-select: none;
-}
-.RoundButton:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #00c853;
-  user-select: none;
-}*/
-/*.RoundButton:focus:before{
-  border-radius:inherit;
-  content:"";
-  bottom:-2px;
-  left:-2px;
-  right:-2px;
-  top:-2px;
-  position:absolute;
-}*/
 A:link {text-decoration: none; color: black;}
 A:visited {text-decoration: none; color: black; text-align: center;}
 A:active {text-decoration: none; color: black; text-align: center;}
