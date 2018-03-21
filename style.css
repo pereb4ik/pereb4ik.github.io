@@ -1,28 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic');
 body {
-  background: url(newrepkah.svg) no-repeat center fixed;
-  background-color: #80DEEA;
+  background: #80DEEA  url("newrepkah.svg") no-repeat center fixed;
   background-size: cover;
-  text-align: center;
-  font-family: 'Open Sans';
-  font-weight: 600;
+  font: bold 1rem 'Open Sans';
+}
+header {
+  font-size: 5rem;
+  font-weight: 400;
 }
 input {
-  padding: 0.2rem;
-  padding-left: 0.5rem;
+  font: bold 0.75rem 'Open Sans';
+  padding: 0.1rem 0.2rem 0.1rem 0.5rem;
   border-radius:100px;
   border: none;
   outline: none;
 }
 button {
+  font: bold 1rem 'Open Sans';
   background-color: #fdd835;
-  font: bold 14px 'Open Sans';
   border: solid #fdd835;
   outline: none;
   border-radius:100px;
-  padding:6px 16px;
+  padding:0.4rem 2rem;
   cursor: pointer;
-  -webkit-user-select: none;
   user-select: none;
+  -webkit-user-select: none;
   transition-duration: 0.3s;
 }
 button:hover {
@@ -33,7 +35,4 @@ button:active {
   background-color: #FBC02D;
   border-color: #FBC02D;
 }
-A:link {text-decoration: none; color: black;}
-A:visited {text-decoration: none; color: black; text-align: center;}
-A:active {text-decoration: none; color: black; text-align: center;}
-A:hover {text-decoration: none; color: black;}
+a{text-decoration: none; color: black;}
